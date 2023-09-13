@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jeu du Pendu</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Jeu du Pendu</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <canvas id="hangmanCanvas" width="200" height="250"></canvas>
+                <p id="wordToGuess" class="text-center"></p>
+                <div id="letters" class="text-center"></div>
+                <p id="guessesLeft" class="text-center mt-3">Essais restants: 6</p>
+                <p id="gameMessage" class="text-center font-weight-bold"></p>
+                <button id="restartButton" class="btn btn-success mt-3" style="display: none;">Relancer</button>
+            </div>
+        </div>
+    </div>
+    <script src="hangman.js"></script>
+</body>
+</html>

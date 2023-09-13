@@ -1,0 +1,25 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    border: 1px solid #e1e1e1;
+}
+
+#letters button {
+    margin: 5px;
+    transition: background 0.2s;
+}
+
+#letters button:hover {
+    background-color: #0056b3;
+}
+
+#letters button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
